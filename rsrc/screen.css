@@ -1,0 +1,364 @@
+/* RESET STYLES - EricMeyer */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* COMUNES */
+.cleaner {
+  clear: both; }
+
+.wrapper {
+  width: 755px;
+  margin: 0 auto;
+  position: relative; }
+
+.dimmer {
+  background-color: #000;
+  filter: alpha(opacity=75);
+  -moz-opacity: 0.75;
+  opacity: 0.75;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
+.noborder {
+  border: none !important; }
+
+.noborderL {
+  border-left: none !important; }
+
+.noborderR {
+  border-right: none !important; }
+
+.noborderT {
+  border-top: none !important; }
+
+.noborderB {
+  border-bottom: none !important; }
+
+.nomargin {
+  margin: 0 !important; }
+
+.nomarginL {
+  margin-left: 0 !important; }
+
+.nomarginR {
+  margin-right: 0 !important; }
+
+.nomarginT {
+  margin-top: 0 !important; }
+
+.nomarginB {
+  margin-bottom: 0 !important; }
+
+.nopadding {
+  padding: 0 !important; }
+
+.nopaddingL {
+  padding-left: 0 !important; }
+
+.nopaddingR {
+  padding-right: 0 !important; }
+
+.nopaddingT {
+  padding-top: 0 !important; }
+
+.nopaddingB {
+  padding-bottom: 0 !important; }
+
+.floaterL {
+  float: left; }
+
+.floaterR {
+  float: right; }
+
+.centered {
+  text-align: center; }
+
+.aright {
+  text-align: right; }
+
+.aleft {
+  text-align: left; }
+
+/* SASS - Variables */
+/* SASS - mixins */
+/* COMMONS */
+body {
+  background: #47170d;
+  font-family: 'Times New Roman', serif;
+  font-size: 14px;
+  color: #464646; }
+
+/* SPLASH PAGE */
+.splashbox {
+  width: 775px;
+  margin: 60px auto;
+  color: white; }
+  .splashbox .top {
+    background: #6f2719;
+    text-align: center; }
+    .splashbox .top h1 {
+      font-size: 40px;
+      color: white;
+      font-weight: normal;
+      text-transform: uppercase;
+      padding: 40px 0 10px 0;
+      border-bottom: 1px solid white;
+      width: 500px;
+      margin: 0 auto; }
+      .splashbox .top h1 span {
+        font-size: 55px; }
+    .splashbox .top h2 {
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: normal;
+      padding: 10px 0 40px; }
+  .splashbox .middle {
+    background: white url("img/logonotarial.png") no-repeat 545px 50px;
+    height: 275px; }
+    .splashbox .middle p {
+      text-align: center;
+      padding: 45px 0 0 0; }
+      .splashbox .middle p a {
+        color: black;
+        padding: 6px 12px;
+        border: 1px solid black;
+        margin: 0 10px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px; 
+        font-weight:bold}
+  .splashbox .bottom {
+    background: #6f2719;
+    padding: 15px 10px; }
+    .splashbox .bottom p {
+    	text-align: center;
+      padding: 2px;
+      font-size: 18px; 
+      font-weight:bold}
+
+/* MAIN PAGE */
+.wrapper {
+  background: white url("img/1b.jpg") no-repeat 398px 180px; }
+  .wrapper .header {
+    background: #efefe7; 
+    display:block;
+    height:30px;}
+    
+    .wrapper .header div {
+    	position:absolute;
+ top:0;
+ left:0;
+ width:380px;
+      text-align: left;
+      padding: 10px 0px 0px 25px;
+      text-transform: uppercase;
+          font-size: 12px;
+          text-decoration: none;
+          font-weight:bold;
+          color: #464646; }
+     .wrapper .header div a { 
+     	text-transform: uppercase;
+          font-size: 12px;
+          text-decoration: none;
+          font-weight:bold;
+          color: #464646; 
+          
+     	}
+     	
+     .wrapper .header div a:hover {
+          color: #6f2719;
+          font-weight:bold;}
+     	
+    .wrapper .header ul {
+    	position:absolute;
+		 top:0;
+		 right:0;
+		 width:380px;
+      text-align: right;
+      padding: 5px; }
+      .wrapper .header ul li {
+        display: inline;
+        margin: 0 10px;
+        padding: 3px 0 0; }
+        .wrapper .header ul li a {
+          text-transform: uppercase;
+          font-size: 12px;
+          text-decoration: none;
+          font-weight:bold;
+          color: #464646; }
+        .wrapper .header ul li a.here {
+          text-transform: uppercase;
+          font-size: 12px;
+          text-decoration: none;
+          font-weight:bold;
+          color: #464646; 
+          border-bottom: 2px solid #464646;}
+        .wrapper .header ul li a:hover {
+          color: #6f2719;
+          font-weight:bold;
+          border-bottom: 2px solid #6f2719;}
+  .wrapper .content {
+    position: relative; }
+    .wrapper .content .logo {
+      background: #6f2719;
+      width: 395px;
+      position: relative;
+      margin: 20px 0; }
+      .wrapper .content .logo h1 {
+        font-size: 27px;
+        color: white;
+        font-weight: normal;
+        text-transform: uppercase;
+        padding: 10px 0 10px 0;
+        border-bottom: 1px solid white;
+        width: 345px;
+        margin: 0 auto;
+        text-align: center;
+         }
+        .wrapper .content .logo h1 span {
+          font-size: 42px; 
+         }
+      .wrapper .content .logo h2 {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: normal;
+        padding: 10px 0 10px;
+        color: white;
+        width: 345px;
+        text-align: left;
+        margin: 0 auto;
+        font-weight:bold; }
+        .wrapper .content .logo h2 span {
+          width: 270px;
+          text-align: right;
+          display: inline-block;
+          font-weight:bold; }
+    .wrapper .content .toldo {
+      position: absolute;
+      top: 0;
+      left: -23px;
+      width: 23px;
+      height: 120px;
+      background: url("img/toldo.png") no-repeat bottom; }
+    .wrapper .content .welcome {
+      width: 360px; }
+      .wrapper .content .welcome h3 {
+        font-size: 40px;
+        font-style: italic;
+        color: #6f2719;
+        padding: 5px 0 10px 30px;
+        font-weight: normal; 
+        font-weight:bold;}
+      .wrapper .content .welcome p {
+        font-size: 14px;
+        color: #464646;
+        line-height: 18px;
+        padding: 0 0 20px 30px; }
+    .wrapper .content .leftCol {
+      float: left;
+      width: 360px; }
+      .wrapper .content .leftCol .servicebox {
+        height: 160px; }
+        .wrapper .content .leftCol .serviceboxbottom {
+        height: 210px; }
+      .wrapper .content .leftCol h3 {
+        font-size: 18px;
+        font-style: italic;
+        color: #6f2719;
+        padding: 5px 0 10px 30px;
+        font-weight:bold; }
+      .wrapper .content .leftCol p {
+        font-size: 14px;
+        color: #464646;
+        line-height: 18px;
+        padding: 0 0 10px 30px; }
+    .wrapper .content .rightCol {
+      float: right;
+      width: 360px; }
+      .wrapper .content .rightCol .servicebox {
+        height: 160px; }
+              .wrapper .content .rightCol .serviceboxbottom {
+        height: 210px; }
+      .wrapper .content .rightCol h3 {
+        font-size: 18px;
+        font-style: italic;
+        color: #6f2719;
+        padding: 5px 30px 10px 0;
+        font-weight:bold;}
+      .wrapper .content .rightCol p {
+        font-size: 14px;
+        color: #464646;
+        line-height: 18px;
+        padding: 0 30px 10px 0; }
+    .wrapper .content .alsoBox {
+      margin: 30px 0 0 0; }
+      .wrapper .content .alsoBox h3 {
+        font-size: 16px;
+        color: #6f2719;
+        padding: 5px 30px 5px 30px;
+        font-weight: normal; }
+      .wrapper .content .alsoBox p {
+        font-size: 14px;
+        color: #464646;
+        line-height: 18px;
+        padding: 0 30px 20px 30px; }
+    .wrapper .content .losnotarios {
+      width: 210px;
+      height: 215px;
+      background: url("img/logonotarial.png") no-repeat 0 0;
+      position: absolute;
+      bottom: 20px;
+      right: 10px; }
+  .wrapper .footer {
+    background: #6f2719; }
+    .wrapper .footer .themap {
+      float: left;
+      width: 164px;
+      float: left;
+      margin: 20px 20px 20px 30px; }
+    .wrapper .footer .theaddress {
+      float: left;
+      width: 350px;
+      margin: 20px 20px 0 0;
+      color: white; 
+      }
+      .wrapper .footer .theaddress p {
+        padding: 5px 0; 
+        font-size: 16px;
+      font-weight:bold;}
+            .wrapper .footer .theaddress p a {
+color: white; 
+      font-weight:bold;}
+    .wrapper .footer .theextras {
+      float: right;
+      width: 150px;
+      margin: 20px 20px 0 0;
+      color: white;
+      text-align: right; 
+      font-weight:bold;}
+      .wrapper .footer .theextras p {
+        margin: 0 0 20px 0;
+        text-align: center;
+        font-size: 12px;
+ }
+              .wrapper .footer .theextras p.metro{
+        text-transform: uppercase; }
+
